@@ -33,7 +33,11 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 
+<<<<<<< HEAD
 uint256 hashGenesisBlock("0x1d8ea43e6417420f3caf6adc2a98749746bb6b22e15b0467e873c4549775f01e");
+=======
+uint256 hashGenesisBlock("0x7231b064d3e620c55960abce2963ea19e1c3ffb6f5ff70e975114835a7024107");
+>>>>>>> 3e5500ec3b58999f3058c98dc5ae046288efb7fd
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Krugercoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
