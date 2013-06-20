@@ -4,7 +4,7 @@ Krugercoin - a fork of Litecoin version with fast block time and faster confirma
 	- Difficulty retargets every 0.35 day
 	- Total coins will be around 265 millions. 
 	- Each block will have 32 coins per block at the beginning, it will be halved every two years (or 4,147,200 blocks).
-	- The default ports are 11081(connect) and 11082(json rpc).
+	- The default ports are 8771(connect) and 8772(json rpc).
 
 
 Development process
