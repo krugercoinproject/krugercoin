@@ -2940,7 +2940,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
     }
 
 
-    else if (strCommand == "alert")
+    else if (strCommand == "kgralert")
     {
         CAlert alert;
         vRecv >> alert;
